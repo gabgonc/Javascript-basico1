@@ -1,5 +1,21 @@
 ###Curso de javascript
 
-- Curso de introdução ao javascript Alura.
+##Curso de introdução ao javascript Alura.
 
-Módulos 1 a 3 já concluídos e adicionados no módulo 4.
+MÓDULO 1 - INTRODUÇÃO (CONCLUÍDO)
+
+MÓDULO 2 - VARIÁVEIS E OPERADORES (CONCLUÍDO)
+
+MÓDULO 3 - ARRAYS, LOOPS E ESTILOS (CONCLUÍDO)
+
+MÓDULO 4 - EVENTOS, FORMULÁRIOS E CRIANDO EVENTOS (CONCLUÍDO)
+
+MÓDULO 5 - BOAS PRÁTICAS EM JAVASCRIPT (CONCLUÍDO)
+
+MÓDULO 6 - VALIDAÇÃO DE COMPONENTES (CONCLUÍDO)
+
+MÓDULO 7 - EM ANDAMENTO
+
+MÓDULO 8 - EM ANDAMENTO
+
+MÓDULO 9 - EM ANDAMENTO
