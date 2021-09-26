@@ -37,11 +37,10 @@ for (var i = 0; i < pacientes.length; i++) {
   }
 }
 
-function validaGordura(gordura){
-  if(gordura >= 0 && gordura <= 80){
+function validaGordura(gordura) {
+  if (gordura >= 0 && gordura <= 80) {
     return true
-    }else 
-    return false
+  } else return false
 }
 
 function validaPeso(peso) {

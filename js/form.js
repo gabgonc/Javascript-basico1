@@ -19,7 +19,6 @@ botaoAdicionar.addEventListener('click', function (event) {
     form.reset()
     return
   }
-
   var tabela = document.querySelector('#tabela-pacientes')
 
   tabela.appendChild(pacienteTr)
