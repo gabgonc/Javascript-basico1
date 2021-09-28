@@ -4,8 +4,6 @@ botaoAdicionar.addEventListener('click', function (event) {
 
   var form = document.querySelector('#form-adiciona')
   var paciente = obtemPacienteDoFormulario(form)
-  var pacienteTr = MontaTr(paciente)
-
   var erros = validaPaciente(paciente)
 
   if (erros.length > 0) {
@@ -14,13 +12,7 @@ botaoAdicionar.addEventListener('click', function (event) {
     return
   }
 
-  if (!validaPaciente(paciente)) {
-    alert('Paciente inválido')
-    form.reset()
-    return
-  }
-  var tabela = document.querySelector('#tabela-pacientes')
-
+  adicionaPacienteNaTabela(paciente)
   tabela.appendChild(pacienteTr)
   form.reset()
 
@@ -102,4 +94,11 @@ function exibeMensagensDeErro(erros) {
     li.textContent = erro
     ul.appendChild(li)
   })
+}
+
+// Crie esta função em seu form.js
+function adicionaPacienteNaTabela(paciente) {
+  var pacienteTr = MontaTr(paciente);
+  var tabela = document.querySelector("#tabela-pacientes");
+  tabela.appendChild(pacienteTr);
 }
